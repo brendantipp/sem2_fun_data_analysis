@@ -60,3 +60,12 @@ Using the input list the following output is created - {'A': 3, 'B': 1, 'C': 1}
 
 The created function counts() can be viewed and tested interactivley using the jupyter notebook tasks.ipynb
 
+
+
+## Task 2
+
+### Task Description
+
+Write a Python function calleddicerollsthat simulatesrolling dice.  Your function should take two parameters:  the number of dicekandthe number of times to roll the dicen.  The function should simulate randomlyrollingkdicentimes, keeping track of each total face value.  It should then returna dictionary with the number of times each possible total face value occurred.  So,calling the function asdiceroll(k=2, n=1000)should return a dictionary like:{2:19,3:50,4:82,5:112,6:135,7:174,8:133,9:114,10:75,11:70,12:36}You can use any module from the Python standard library you wish and you shouldinclude a description with references of your algorithm in the notebook
+
+
