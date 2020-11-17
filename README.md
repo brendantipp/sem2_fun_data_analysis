@@ -79,5 +79,7 @@ Write a Python function calleddicerollsthat simulatesrolling dice.  Your functio
 - append each throw to a list and use function counts to output the results in a dict 
 
 
+References:
+- https://www.geeksforgeeks.org/python-randint-function/
 
 
