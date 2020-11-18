@@ -21,39 +21,15 @@ Within the Jupyter notebook write a python function called counts that takes a l
 
 
 #### Task Research and references:
-https://medium.com/swlh/create-a-dictionary-from-a-list-65742246ab4b
-
-https://www.geeksforgeeks.org/python-ways-to-create-a-dictionary-of-lists/
-
-https://www.w3schools.com/python/python_dictionaries.asp
-
-https://realpython.com/courses/lists-tuples-python/
+- https://medium.com/swlh/create-a-dictionary-from-a-list-65742246ab4b
+- https://www.geeksforgeeks.org/python-ways-to-create-a-dictionary-of-lists/
+- https://www.w3schools.com/python/python_dictionaries.asp
+- https://realpython.com/courses/lists-tuples-python/
 
 
 #### counts function code 
 
-        # create the required list
-         list = ['A', 'A','B', 'C','A']
-         
-         # create an empty dictionary
-        dict = {}
-
-    # create a for loop to count result and return as a dict
-    # range and len for loop per research link ttps://medium.com/swlh/create-a-dictionary-from-a-list-65742246ab4b
-    # reference https://www.geeksforgeeks.org/python-ways-to-create-a-dictionary-of-lists/
-    # dictionary key being the item found and the value the count of same 
-    # wrap code in function counts()
-
-    def counts(list):
-
-        for l in range(len(list)):
-            dict[list[l]] = list.count(list[l])
-        print (dict)
-    
-    #output is created passing list to our new function counts
-     counts(list)
-
-Using the input list the following output is created - {'A': 3, 'B': 1, 'C': 1}
+Place upadate code here - only when finished*************
 
 
 #### How to run and test/view out new function
@@ -81,5 +57,17 @@ Write a Python function calleddicerollsthat simulatesrolling dice.  Your functio
 
 References:
 - https://www.geeksforgeeks.org/python-randint-function/
+- https://www.askpython.com/python/dictionary/delete-a-dictionary-in-python
+
+
+## Task 3
+
+### Task Description 
+
+The numpy.random.binomial function can be used to simulate flipping a coin with a 50/50 chance of heads or tails.  Interestingly, if acoin is flipped many times then the number of heads is well approximated by abell-shaped curve.  For instance, if we flip a coin 100 times in a row the chance ofgetting 50 heads is relatively high, the chances of getting 0 or 100 heads is relatively low, and the chances of getting any other number of heads decreases as you moveaway from 50 in either direction towards 0 or 100.  Write some python code that simulates flipping a coin 100 times.  Then run this code 1,000 times, keeping track of  the  number  of  heads  in  each  of  the  1,000  simulations.   Select  an  appropriate plot to depict the resulting list of 1,000 numbers, showing that it roughly follows a bell-shaped curve.  You should explain your work in a Markdown cell above thecode.
+
+
+
+
 
 
