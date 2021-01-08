@@ -3,10 +3,53 @@
 
 ### Four tasks are contained in on Jupyter Notebook named tasks
 
-## Task 1
+#### BRENDAN RYAN - GMIT 
+
+
+
+### How to run the jupyter notebook
+
+
+The Jupyter notebook can be viewed on my My repository is held on GitHub - https://github.com/brendantipp/sem2_fun_data_analysis
+
+
+You can also download and run the Jupyter notebook from the repository to your local hard drive and open with Jupyter Notebooks - www.jupyter.org
+
+The following is useful step by step guide on how to open and run a jupyter notebook - https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html
+
+
+### Details of Git Repository
+The repository for the assignment and all the files are located here https://github.com/brendantipp/sem2_prog_data_analysis_project
+
+#### Contents of the Repository
+
+Files
+
+- tasks.ipynb (Jupyter notebook for Project)
+- REAME.md (Details of the project, how to run the files, details of the repository)
+- licence (licence used)
+
+Folders
+
+- Images Folder - contains any images used in the jupyter notebook
+
+The Software used:
+
+- Annacoda distribution package (Python, Git) - www.anaconda.com
+- Jupyter Notebook - www.jupyter.org
+- cmder - www.cmder.net
+- Github www.github.com
+
+
+## Overview of tasks relating to repository
+
+###  Task 1
 
 ##### Task Description
 Within the Jupyter notebook write a python function called counts that takes a list as an input and returns a dictionary of unique items in the last as keys and the number of times each item appears as values.
+
+
+
 
 
 #### Development plan
@@ -27,10 +70,6 @@ Within the Jupyter notebook write a python function called counts that takes a l
 - https://realpython.com/courses/lists-tuples-python/
 
 
-#### counts function code 
-
-Place upadate code here - only when finished*************
-
 
 #### How to run and test/view out new function
 
@@ -38,7 +77,7 @@ The created function counts() can be viewed and tested interactivley using the j
 
 
 
-## Task 2
+### Task 2
 
 ### Task Description
 
@@ -60,19 +99,16 @@ References:
 - https://www.askpython.com/python/dictionary/delete-a-dictionary-in-python
 
 
-## Task 3
+### Task 3
 
 ### Task Description 
 
 The numpy.random.binomial function can be used to simulate flipping a coin with a 50/50 chance of heads or tails.  Interestingly, if acoin is flipped many times then the number of heads is well approximated by abell-shaped curve.  For instance, if we flip a coin 100 times in a row the chance ofgetting 50 heads is relatively high, the chances of getting 0 or 100 heads is relatively low, and the chances of getting any other number of heads decreases as you moveaway from 50 in either direction towards 0 or 100.  Write some python code that simulates flipping a coin 100 times.  Then run this code 1,000 times, keeping track of  the  number  of  heads  in  each  of  the  1,000  simulations.   Select  an  appropriate plot to depict the resulting list of 1,000 numbers, showing that it roughly follows a bell-shaped curve.  You should explain your work in a Markdown cell above thecode.
 
 
-Numpy Package
-Matplotlib
-Seaborn 
 
 
-## Task 4
+###  Task 4
 
 ### Task Description 
 
@@ -82,5 +118,9 @@ Simpson’s paradox is a well-known statistical paradox where a trend evident in
 
 Refenences 
 
-
 https://en.wikipedia.org/wiki/Simpson%27s_paradox
+
+
+
+
+END
